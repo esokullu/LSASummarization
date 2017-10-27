@@ -13,7 +13,7 @@ public class SentenceSeperatorTest {
 		SentenceSeperator sss = new SentenceSeperator();
 	
 		//sss.sentenceSeparator(s.toString());
-		String cumle = "Ali geldi. Top düþtü! O geri geldi mi? Neyin var dedi. ";
+		String cumle = "Ali geldi. Top dÃ¼ÅŸtÃ¼! O geri geldi mi? Neyin var dedi. ";
 		//Vector<Sentence> cumle2 = sss.sentenceSeparator(cumle);
 		Vector<String> sonuc=sss.ParagrafIntoCumle(cumle);
 		for(int i=0;i<sonuc.size();i++)
